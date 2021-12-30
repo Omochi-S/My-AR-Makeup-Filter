@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+  </style>
+  <script src="js/index.js">
+  </script>
+  <title>トップ - My AR Makeup Filter
+  </title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>My AR Makeup Filter</h1>
+    <!-- ロゴの画像を作っていれ直す -->
+    <nav>
+      <table class="buttonTable lightRoundButtonTable">
+        <tr>
+          <td>
+            <button type="button">
+              <img src="img/icon/トップ_ピンク.png" alt="">
+            </button>
+            <p>トップ</p>
+          </td>
+          <td>
+            <button type="button" class="headerDiagnose">
+              <img src="img/icon/診断_緑.png" alt="">
+              <img src="img/icon/診断_紺.png" alt="" class="active">
+            </button>
+            <p>診断</p>
+          </td>
+          <td>
+            <button type="button" class="headerResult">
+              <img src="img/icon/メイク_緑.png" alt="">
+              <img src="img/icon/メイク_紺.png" alt="" class="active">
+            </button>
+            <p>メイク</p>
+          </td>
+          <td>
+            <button type="button" class="headerAbout">
+              <img src="img/icon/説明_緑.png" alt="">
+              <img src="img/icon/説明_紺.png" alt="" class="active">
+            </button>
+            <p>使い方</p>
+          </td>
+        </tr>
+      </table>
+    </nav>
+  </header>
+  <main>
+    <br>
+    <article>
+      <br>
+      <h2>「My AR Makeup Filter」は、顔タイプ＆パーソナルカラー診断を基に、素顔でもメイクしているように見えるARフィルターを推薦するWebアプリケーションです。
+      </h2>
+      <br>
+      <table id="WebApplicationTable">
+        <tr>
+          <td>
+            <iframe width="400" height="225"
+              src="https://www.youtube.com/embed/Ae3nuKiTAsk?autoplay=1&mute=1&loop=1&playlist=Ae3nuKiTAsk"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+            </iframe>
+          </td>
+          <td width="300px">
+            <p>
+              SnapCameraでフィルターの提供を行っているため、Meet、Zoom、Skypeなど主要なWeb会議アプリで利用できます。
+            </p>
+          </td>
+        </tr>
+      </table>
+    </article>
+    <br>
+    <article>
+      <br>
+      <p>*顔タイプ診断済みの方は、
+        <a class="linkLine linkResult">
+          メイクページへ
+        </a>
+      </p>
+      <button class="darkSquareButton linkDiagnose">
+        <table>
+          <tr>
+            <td>
+              <img src="img/icon/カメラ_白.png" alt="">
+            </td>
+            <td>
+              <p>&emsp;顔タイプ＆パーソナルカラー診断をおこなう</p>
+            </td>
+          </tr>
+        </table>
+      </button>
+      <br>
+    </article>
+    <br>
+    <hr>
+    <br>
+    <table class="matrixTable">
+      <tr>
+        <td colspan="2">
+          <h2>顔タイプ診断＆パーソナルカラー診断について</h2>
+        </td>
+      </tr>
+      <tr>
+        <td class="tableTop">
+          <img src="img/matrix/顔タイプマトリックス.png" alt="" class="matrixImg">
+        </td>
+        <td>
+          <h2>顔タイプ診断
+            <br>ARメイクフィルターの型＋色
+          </h2>
+          <p class="left">顔の輪郭やパーツの特徴やバランスなどから、顔の印象を導き出す診断です。
+            <br>
+            Cute / Fresh / Feminine / Coolの４つのグループに分かれます。
+          </p>
+        </td>
+      </tr>
+      <tr class="tableTop">
+        <td>
+          <img src="img/matrix/パーソナルカラーマトリックス.png" alt="" class="matrixImg">
+        </td>
+        <td>
+          <h2>パーソナルカラー診断
+            <br>ARメイクフィルターの色
+          </h2>
+          <p class="left">ボディーカラー（皮膚、瞳、髪などの色）から、似合う色を見つける診断です。
+            <br>
+            Spring / Summer / Autumn / Winter の4つのグループに分かれます。
+          </p>
+        </td>
+      </tr>
+    </table>
+    <br>
+    <div id="heightIndex">
+    </div>
+  </main>
+  <footer>
+    <small>&copy; My AR Makeup Filter 2021 表内沙樹 inc. All rights reserved.</small>
+  </footer>
+</body>
+
+</html>
