@@ -2,8 +2,8 @@
 window.onload = function () {
   //厳格モード（コードをより厳しくエラーチェック）
   "use strict";
-  //let pathname = "/My-AR-Makeup-Filter";
-  let pathname = "";
+  let pathname = "/My-AR-Makeup-Filter";
+  //let pathname = "";
   //スクリーン高さ調整
   //スクロールバーのサイズを除いた画面の高さ（document.documentElement.clientHeight)
   let browserHeight = document.documentElement.clientHeight;
