@@ -1,8 +1,8 @@
 //HTML文書全体の読み込み後、ページが表示されてから実行
 window.onload = function () {
   "use strict";
-  //let pathname = "/My-AR-Makeup-Filter";
-  let pathname = "";
+  let pathname = "/My-AR-Makeup-Filter";
+  //let pathname = "";
   //スクリーン高さ調整
   let browserHeight = document.documentElement.clientHeight;
   let bodyHeight = document.body.clientHeight;
